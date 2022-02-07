@@ -7,11 +7,13 @@ function Skills() {
       <section id="skills">
         <h3>
           Below is a summary of my relevant web development and software
-          engineering skills. More details can be found in my resume linked{" "}
+          engineering skills. More details can be found in my resume linked
           <span>
             {" "}
             <a
-              href="https://mega.nz/file/TkkkBAKb#nMz4Libnqs4ZzfXXh1zkP6Z2IOG8Fl0kmZKGgBoyy_c"
+              href="https://drive.google.com/file/d/1WPtqZ_b0Jq2tPpdUCDOqWwqlZRw8yfoB/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
               style={{ color: "white" }}
             >
               here
