@@ -219,11 +219,14 @@ p {
     font-size: 1.2rem;
   }
 
-  .profile-text,
+  .profile-text {
+    font-size: 0.7rem;
+  }
+
   .project-description,
   .languages,
   .skill-list {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-align: center;
   }
 
