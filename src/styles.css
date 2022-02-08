@@ -104,7 +104,7 @@ p {
 }
 
 .profile-text {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 400;
   text-align: justify;
 }
@@ -220,7 +220,8 @@ p {
   }
 
   .profile-text {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
+    text-align: center;
   }
 
   .project-description,

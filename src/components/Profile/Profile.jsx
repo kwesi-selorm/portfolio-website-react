@@ -13,8 +13,8 @@ function Profile() {
             />
           </div>
 
-          <div className="col-lg-9 profile-text">
-            <p>
+          <div className="col-lg-9 ">
+            <p className="profile-text">
               WELCOME, and thanks for visiting my page. A little about myself: I
               am a Ghanaian currently living and working in Stavanger, Norway. I
               am a developer proficient in developing web applications using
