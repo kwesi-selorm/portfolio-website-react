@@ -5,10 +5,10 @@ function Skills() {
     <>
       <h2 className="skills-title">Skills</h2>
       <section id="skills">
-        <h3>
+        <p>
           Below is a summary of my relevant web development and software
           engineering skills. More details can be found in my resume linked
-          <span>
+          <p>
             {" "}
             <a
               href="https://drive.google.com/file/d/1WPtqZ_b0Jq2tPpdUCDOqWwqlZRw8yfoB/view?usp=sharing"
@@ -18,8 +18,8 @@ function Skills() {
             >
               here
             </a>
-          </span>
-        </h3>
+          </p>
+        </p>
         <SkillSets />
       </section>
     </>

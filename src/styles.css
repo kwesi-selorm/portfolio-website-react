@@ -128,10 +128,8 @@ p {
   cursor: pointer;
 }
 
-#skills h3 {
+#skills > p {
   color: #fff;
-  font-size: 2rem;
-  font-weight: normal;
 }
 
 .skill-sets {
@@ -147,27 +145,18 @@ p {
   padding: 10px;
 }
 
-.skill-item h3 {
+.skill-item h4 {
   background-color: #ecb365;
   border-radius: 5px;
   color: #fff;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
+  font-weight: 500;
   padding: 5px 5px 10px;
 }
 
-.skills > span {
-  color: #f8f5f1;
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-top: 1px;
-  padding: 3px 5px;
-}
-
 .skill-list {
-  font-family: Poppins;
-  font-size: 1.1rem;
-  line-height: 2;
-  text-align: left;
+  color: #f8f5f1;
+  font-size: 1.2rem;
 }
 
 /* Portfolio and work */
@@ -194,8 +183,7 @@ p {
   background-color: #064663;
   color: #fff;
   font-weight: 400;
-
-  /* width: auto !important; */
+  padding: 5px;
 }
 
 /* Contact */
@@ -219,11 +207,23 @@ p {
 }
 
 @media (max-width: 1000px) {
-  .intro h1 {
-    font-size: 4rem;
+  h2 {
+    font-size: 1.8rem;
   }
 
-  .profile-text {
+  .intro h1 {
+    font-size: 2.2rem;
+  }
+
+  .intro h3 {
+    font-size: 1.2rem;
+  }
+
+  .profile-text,
+  .project-description,
+  .languages,
+  .skill-list {
+    font-size: 0.8rem;
     text-align: center;
   }
 

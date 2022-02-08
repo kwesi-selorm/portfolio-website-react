@@ -2,20 +2,31 @@ function SkillSets() {
   return (
     <div className="skill-sets container">
       <div className="skill-item">
-        <h3>Web & Software Development</h3>
-        <div className="skills">
-          <span>HTML & CSS</span> <span>JavaScript</span> <span>React</span>{" "}
-          <span>Node.js</span> <span>Express</span> <span>Python</span>{" "}
-          <span>EJS</span> <span>jQuery</span> <span>npm</span>
-          <span>Bootstrap</span> <span>Material UI</span>
+        <h4>Web & Software Development</h4>
+        <div className="skill-list">
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+          <li>Python</li>
+          <li>EJS</li>
+          <li>jQuery</li>
+          <li>npm</li>
+          <li>Bootstrap</li>
+          <li>Material UI</li>
         </div>
       </div>
       <div className="skill-item">
-        <div className="skills">
-          <h3>Engineering</h3>
-          <span>Design thinking</span>{" "}
-          <span>Electrical systems design and modelling</span>{" "}
-          <span>MATLAB & Simulink</span>
+        <h4>Engineering</h4>
+        <div className="skill-list">
+          <li>MATLAB & Simulink</li>
+          <li>COMSOL Multiphysics</li>
+          <li>DNV-GL Bladed</li>
+          <li>Design thinking</li>
+          <li>Electrical systems design and modelling</li>
+          <li>System simulations and analysis</li>
         </div>
       </div>
     </div>

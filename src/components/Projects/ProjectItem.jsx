@@ -15,7 +15,8 @@ function ProjectItem(props) {
           style={{ marginLeft: "0" }}
           href={props.imagelink}
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer"
+        >
           <img
             className="img-fluid rounded project-image"
             style={{ width: "100%" }}
@@ -25,7 +26,7 @@ function ProjectItem(props) {
         </a>
 
         {/* Description */}
-        <p>{props.description}</p>
+        <p className="project-description">{props.description}</p>
         <p className="languages">{props.languages}</p>
       </div>
     </div>
