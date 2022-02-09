@@ -245,3 +245,9 @@ p {
     gap: 30px;
   }
 }
+
+@media (min-width: 1700px) {
+  .profile-text {
+    font-size: 1.5rem;
+  }
+}
