@@ -17,8 +17,8 @@ function Profile() {
             <p className="profile-text">
               WELCOME, and thanks for visiting my page. A little about myself: I
               am a Ghanaian currently living and working in Stavanger, Norway. I
-              am a developer proficient in developing web applications using
-              diverse programming languages, technologies and tools. Do check
+              develop interactive, scalable and robust web applications using a
+              variety of programming languages, technologies and tools. Do check
               out my projects; I hope you'll enjoy them!
               <br />
               During my leisure time you'll find me <b>hiking</b>,

@@ -130,6 +130,7 @@ p {
 
 #skills > p {
   color: #fff;
+  font-size: 1.2rem;
 }
 
 .skill-sets {
@@ -143,6 +144,8 @@ p {
   background-color: #064663;
   border-radius: 10px;
   padding: 10px;
+  min-width: 80%;
+  width: 100%;
 }
 
 .skill-item h4 {
@@ -154,9 +157,17 @@ p {
   padding: 5px 5px 10px;
 }
 
-.skill-list {
+.skill-list-web-development {
   color: #f8f5f1;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skill-list-engineering {
+  color: #f8f5f1;
+  font-size: 1.1rem;
 }
 
 /* Portfolio and work */
@@ -226,7 +237,8 @@ p {
   }
 
   .languages,
-  .skill-list {
+  .skill-list-web-development,
+  .skill-list-engineering {
     font-size: 0.9rem;
     text-align: center;
   }
