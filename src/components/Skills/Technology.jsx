@@ -7,9 +7,7 @@ function Technology(props) {
           alt={props.alt}
           style={{ width: "30px", height: "30px" }}
         />
-        <p className="technology" style={{ fontSize: "1.1rem" }}>
-          {props.technologyName}
-        </p>
+        <p className="technology">{props.technologyName}</p>
       </div>
     </>
   );

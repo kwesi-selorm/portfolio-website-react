@@ -165,7 +165,11 @@ p {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.skill-list-engineering {
+.technology {
+  font-size: 1.1rem;
+}
+
+.skill-list-engineering > li {
   color: #f8f5f1;
   font-size: 1.1rem;
 }
@@ -236,9 +240,12 @@ p {
     text-align: center;
   }
 
-  .languages,
-  .skill-list-web-development,
-  .skill-list-engineering {
+  .technology,
+  .skill-list-engineering > li {
+    font-size: 0.9rem;
+  }
+
+  .languages {
     font-size: 0.9rem;
     text-align: center;
   }
