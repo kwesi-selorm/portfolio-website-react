@@ -5,9 +5,9 @@ function Technology(props) {
         <img
           src={props.src}
           alt={props.alt}
-          style={{ width: "20px", height: "20px" }}
+          style={{ width: "30px", height: "30px" }}
         />
-        <p className="technology" style={{ fontSize: "0.9rem" }}>
+        <p className="technology" style={{ fontSize: "1.1rem" }}>
           {props.technologyName}
         </p>
       </div>
