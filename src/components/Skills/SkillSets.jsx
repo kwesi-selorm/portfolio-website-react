@@ -13,6 +13,11 @@ function SkillSets() {
             technologyName="JavaScript"
           />
           <Technology
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            alt="typescript"
+            technologyName="TypeScript"
+          />
+          <Technology
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
             alt="HTML"
             technologyName="HTML"
@@ -28,6 +33,11 @@ function SkillSets() {
             technologyName="React"
           />
           <Technology
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+            alt="NextJS"
+            technologyName="NextJS"
+          />
+          <Technology
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
             alt="Node.js"
             technologyName="Node.js"
@@ -35,7 +45,7 @@ function SkillSets() {
           <Technology
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
             alt="Express"
-            technologyName="Express"
+            technologyName="ExpressJS"
           />
           <Technology
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
