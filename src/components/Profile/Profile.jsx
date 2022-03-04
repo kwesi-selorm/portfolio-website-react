@@ -15,7 +15,7 @@ function Profile() {
 
           <div className="col-lg-9 ">
             <p className="profile-text">
-              WELCOME, and thanks for visiting my page. A little about myself: I
+              Welcome, and thanks for visiting my page. A little about myself: I
               am a Ghanaian currently living and working in Stavanger, Norway. I
               develop interactive, scalable and robust web applications using a
               variety of programming languages, technologies and tools. Do check

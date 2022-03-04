@@ -16,7 +16,7 @@ function Skills() {
               rel="noreferrer"
               style={{ color: "white" }}
             >
-              here
+              <b>here</b>
             </a>
           </p>
         </p>

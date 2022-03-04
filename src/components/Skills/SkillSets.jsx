@@ -48,6 +48,11 @@ function SkillSets() {
             technologyName="ExpressJS"
           />
           <Technology
+            src="https://api.iconify.design/file-icons/chartjs.svg?color=white&width=30&height=30"
+            alt="ChartJS"
+            technologyName="ChartJS"
+          />
+          <Technology
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
             alt="MongoDB"
             technologyName="MongoDB"

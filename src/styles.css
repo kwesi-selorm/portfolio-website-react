@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700;800;900&display=swap");
+
 * {
-  font-family: Poppins;
+  font-family: Bitter;
 }
 
 html {
@@ -30,13 +32,11 @@ h2 {
 
 h3 {
   color: #04293a;
-  font-family: Poppins;
   font-size: 2rem;
   font-weight: bold;
 }
 
 p {
-  font-family: Poppins;
   font-size: 1.3rem;
   line-height: 2;
 }
@@ -72,7 +72,6 @@ p {
 
 .intro h1 {
   color: #041c32;
-  font-family: Poppins;
   font-size: 4.5rem;
 }
 
@@ -104,7 +103,7 @@ p {
 }
 
 .profile-text {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 400;
   text-align: justify;
 }
@@ -114,7 +113,7 @@ p {
 #skills {
   /* height: 50vh; */
   margin-top: 0;
-  padding: 5% 15% 10%;
+  padding: 2% 15% 10%;
   text-align: center;
   transform: none;
 
@@ -211,7 +210,6 @@ p {
 }
 
 .contact-me h2 {
-  font-family: Poppins;
   color: #fff;
 }
 
