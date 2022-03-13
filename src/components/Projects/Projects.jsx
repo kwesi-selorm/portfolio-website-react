@@ -1,5 +1,6 @@
 import ProjectItem from "./ProjectItem";
 
+import footballPhoto from "./football.png";
 import additionGamePhoto from "./addition-game1.png";
 import ThesaurusTranslatorPhoto from "./thesaurus-translator.png";
 import RecipeAppPhoto from "./the-recipe-app.png";
@@ -11,6 +12,21 @@ function Projects() {
       <h2>Projects</h2>
 
       <div className="projects-container">
+        {/* Football Highlights */}
+        <ProjectItem
+          githublink="https://github.com/kwesi-selorm/football-highlights"
+          website="https://futbol-highlights.netlify.app/"
+          imagelink="https://futbol-highlights.netlify.app/"
+          src={footballPhoto}
+          alt="football-highlights-gamescreenshot"
+          description="I love football, and so do many other individuals all around the world. We usually like to
+          look up scheduled matches, played games, and the status of live games of our favorite clubs. Most apps
+          available come with ads, which can be annoying to clear every single time. This web application utilises a free API 
+          to provide the above-mentioned features and more. It also shows league tables of the top world leagues, 
+          all without any ads. Additional features will be added as the app progresses."
+          languages="TypeScript, React, CSS, HTML, axios, Font Awesome"
+        />
+
         {/* Addition Game */}
         <ProjectItem
           githublink="https://github.com/kwesi-selorm/addition-game"
