@@ -3,7 +3,15 @@ function Introduction() {
     <>
       <section className="intro">
         <h1>
-          Hello! I'm <span style={{ fontWeight: "700" }}>Jeffery</span>.
+          Hello! I'm{" "}
+          <span
+            style={{
+              fontWeight: "600",
+            }}
+          >
+            Jeffery
+          </span>
+          .
         </h1>
 
         <h3 style={{ textDecoration: "underline #ecb365", fontWeight: "400" }}>
