@@ -14,7 +14,7 @@ function Introduction() {
           .
         </h1>
 
-        <h3 style={{ textDecoration: "underline #ecb365", fontWeight: "400" }}>
+        <h3 className="subintro" style={{ fontWeight: "400" }}>
           software developer & engineer
         </h3>
       </section>
