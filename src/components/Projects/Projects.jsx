@@ -19,7 +19,7 @@ function Projects() {
           imagelink="https://futbol-highlights.netlify.app/"
           src={footballPhoto}
           alt="football-highlights-gamescreenshot"
-          description="I love football, and so do many other individuals all around the world. We usually like to
+          description="I love football, and so do many other people all around the world. We usually like to
           look up scheduled matches, played games, and the status of live games of our favorite clubs. Most apps
           available come with ads, which can be annoying to clear every single time. This web application utilises a free API 
           to provide the above-mentioned features and more. It also shows league tables of the top world leagues, 
