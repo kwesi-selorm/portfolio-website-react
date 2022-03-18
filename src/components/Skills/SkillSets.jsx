@@ -5,7 +5,7 @@ function SkillSets() {
   return (
     <div className="skill-sets container">
       <div className="skill-item">
-        <h4>Web & Software Development</h4>
+        <h4 className="skill-heading">Web & Software Development</h4>
         <div className="skill-list-web-development">
           <Technology
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -97,7 +97,7 @@ function SkillSets() {
       </div>
 
       <div className="skill-item">
-        <h4>Engineering</h4>
+        <h4 className="skill-heading">Engineering</h4>
         <div className="skill-list-engineering">
           <li>Simulink</li>
           <li>COMSOL Multiphysics</li>
