@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700;800;900&display=swap");
 
 * {
-  font-family: "Overpass";
+  font-family: "Hind Siliguri";
 }
 
 html {
@@ -42,9 +42,8 @@ p {
 }
 
 /* Navbar */
-
 .navbar {
-  background-color: #ecb365;
+  /* background-color: #ecb365; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +52,7 @@ p {
 }
 
 .navbar a {
-  color: #064663;
+  color: #041c32;
   max-width: 17;
 }
 
@@ -109,7 +108,6 @@ p {
   padding-left: 15%;
   padding-right: 15%;
   text-align: left;
-
   position: relative;
 }
 
@@ -117,11 +115,12 @@ p {
   /* animation: highlight; */
   animation-duration: 5s;
   content: "";
-  background-color: #064663;
+  /* background-color: #064663; */
+  background: linear-gradient(53deg, #064663, #041c32);
   color: #fff;
   height: 100%;
   width: 100%;
-  transition: transform 250ms ease-in;
+  transition: transform 300ms ease-in-out;
 
   transform: scaleY(0);
   transform-origin: top;
@@ -201,13 +200,13 @@ p {
   width: 100%;
 }
 
-.skill-item h4 {
+.skill-heading {
   background-color: #ecb365;
   border-radius: 5px;
   color: #fff;
   font-size: 1.3rem;
-  font-weight: 500;
-  padding: 5px 5px 10px;
+  font-weight: 600;
+  padding: 10px 5px 10px;
 }
 
 .skill-list-web-development {
@@ -215,7 +214,7 @@ p {
   font-size: 1.1rem;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .tech-logo {
@@ -273,8 +272,8 @@ p {
   border-radius: 5px;
   background-color: #064663;
   color: #fff;
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 500;
   padding: 5px;
 }
 
