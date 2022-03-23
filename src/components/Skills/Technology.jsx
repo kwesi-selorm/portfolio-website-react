@@ -6,7 +6,7 @@ function Technology(props) {
           className="tech-logo"
           src={props.src}
           alt={props.alt}
-          style={{ width: "30px", height: "30px" }}
+          style={{ width: "40px", height: "40px" }}
         />
         <p className="technology">{props.technologyName}</p>
       </div>

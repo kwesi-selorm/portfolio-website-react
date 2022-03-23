@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 
 * {
-  font-family: "Hind Siliguri";
+  font-family: "Montserrat";
 }
 
 html {
@@ -79,20 +79,6 @@ p {
   font-weight: 700;
   font-size: 2rem;
   margin-top: 1.5%;
-  position: relative;
-}
-
-.subintro::after {
-  bottom: 0;
-  left: 0;
-  background-color: #ecb365;
-  content: "";
-  position: absolute;
-  transform: scaleX(0.2);
-  transform-origin: center;
-  height: 3px;
-  width: 100%;
-  z-index: 1;
 }
 
 .intro div {
@@ -112,10 +98,7 @@ p {
 }
 
 #profile::after {
-  /* animation: highlight; */
-  animation-duration: 5s;
   content: "";
-  /* background-color: #064663; */
   background: linear-gradient(53deg, #064663, #041c32);
   color: #fff;
   height: 100%;
@@ -156,7 +139,7 @@ p {
 }
 
 .profile-text {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 400;
   text-align: justify;
 }
@@ -233,6 +216,7 @@ p {
 .skill-list-engineering > li {
   color: #f8f5f1;
   font-size: 1.1rem;
+  text-align: left;
 }
 
 /* Portfolio and work */
@@ -265,7 +249,8 @@ p {
 }
 
 .project-description {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  text-align: justify;
 }
 
 .languages {

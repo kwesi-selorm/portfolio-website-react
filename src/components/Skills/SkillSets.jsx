@@ -95,18 +95,6 @@ function SkillSets() {
           <Technology src={ejsIcon} alt="EJS" technologyName="EJS" />
         </div>
       </div>
-
-      <div className="skill-item">
-        <h4 className="skill-heading">Engineering</h4>
-        <div className="skill-list-engineering">
-          <li>Simulink</li>
-          <li>COMSOL Multiphysics</li>
-          <li>DNV-GL Bladed</li>
-          <li>Design thinking</li>
-          <li>Electrical systems design and modelling</li>
-          <li>System simulations and analysis</li>
-        </div>
-      </div>
     </div>
   );
 }
