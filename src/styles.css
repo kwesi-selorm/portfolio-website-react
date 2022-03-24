@@ -6,6 +6,7 @@
 
 html {
   height: 100%;
+  scroll-behavior: smooth;
   width: 100%;
 }
 
@@ -260,6 +261,26 @@ p {
   font-size: 1.1rem;
   font-weight: 500;
   padding: 5px;
+}
+
+/* Scroll-to-top button */
+#scrollButton {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  bottom: 7.2em;
+  color: #064663; /* Text color */
+  cursor: pointer;
+  display: none;
+  font-size: 2rem;
+  outline: none;
+  position: fixed;
+  right: 20px;
+  z-index: 99;
+}
+
+#scrollButton:hover {
+  background-color: #ecb365;
 }
 
 /* Contact */
