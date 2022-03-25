@@ -2,27 +2,32 @@ function ProjectItem(props) {
   return (
     <div className="project-item">
       {/* Links */}
-      <a href={props.githublink} target="_blank" rel="noreferrer">
+      <a
+        href={props.githublink}
+        target="_blank"
+        rel="noreferrer"
+        style={{ marginInline: "5px" }}
+      >
         <i className="fab fa-github"></i>
       </a>
-      <a href={props.website} target="_blank" rel="noreferrer">
+      <a
+        href={props.website}
+        target="_blank"
+        rel="noreferrer"
+        style={{ marginInline: "5px" }}
+      >
         <i className="fab fa-chrome"></i>
       </a>
 
       {/* Image */}
-      <div style={{ margin: "auto", objectFit: "contain" }}>
+      <div style={{ margin: "auto" }} className="project-details-container">
         <a
           style={{ marginLeft: "0" }}
           href={props.imagelink}
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            className="img-fluid rounded project-image"
-            style={{ width: "100%" }}
-            src={props.src}
-            alt={props.alt}
-          />
+          <img className="project-image" src={props.src} alt={props.alt} />
         </a>
 
         {/* Description */}
