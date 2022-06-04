@@ -28,14 +28,14 @@ function SkillSets() {
             technologyName="CSS"
           />
           <Technology
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-            alt="SASS"
-            technologyName="SASS"
-          />
-          <Technology
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
             alt="React"
             technologyName="React"
+          />
+          <Technology
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+            alt="Redux"
+            technologyName="Redux"
           />
           <Technology
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
