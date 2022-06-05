@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700;800&display=swap");
 
 * {
-  font-family: "Segoe UI, Nanum Gothic, Open Sans, Hind";
+  font-family: "Segoe UI", Hind, "Nanum Gothic";
 }
 
 :root {
@@ -192,8 +192,9 @@ p {
   background-color: var(--yellow);
   border-radius: 5px;
   color: var(--white);
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   font-weight: 600;
+  margin-bottom: 2em;
   padding: 10px 5px 10px;
 }
 
