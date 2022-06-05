@@ -13,8 +13,8 @@ function Profile() {
             develop interactive, scalable and robust web applications using
             diverse programming languages (mainly JavaScript, TypeScript, and
             C#), technologies and tools. Do check out my projects; I hope you'll
-            enjoy them! During my leisure time you'll find me{" "}
-            <mark>hiking</mark>,<mark> playing football and padel tennis</mark>,
+            enjoy them! During my leisure time you'll find me,{" "}
+            <mark>hiking</mark>, <mark>playing football and padel tennis</mark>,
             or{" "}
             <mark>
               relaxed at home listening to my curated Spotify playlists!
