@@ -53,9 +53,9 @@ function SkillSets() {
             technologyName="ExpressJS"
           />
           <Technology
-            src="https://api.iconify.design/file-icons/chartjs.svg?color=white&width=30&height=30"
-            alt="ChartJS"
-            technologyName="ChartJS"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+            alt="webpack"
+            technologyName="Webpack"
           />
           <Technology
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"

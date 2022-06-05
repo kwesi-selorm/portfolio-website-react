@@ -9,7 +9,7 @@ import Estim8Photo from "./estim8.jpg";
 function Projects() {
   return (
     <section id="portfolio">
-      <h2>Projects</h2>
+      <h2>PROJECTS</h2>
 
       <div className="projects-container">
         {/* Football Highlights */}

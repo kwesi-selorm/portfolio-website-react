@@ -3,7 +3,7 @@ import SkillSets from "./SkillSets";
 function Skills() {
   return (
     <>
-      <h2 className="skills-title">Skills</h2>
+      <h2 className="skills-title">SKILLS</h2>
       <section id="skills">
         <p>
           Below is a summary of my relevant web development and software

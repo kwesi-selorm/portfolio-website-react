@@ -3,19 +3,12 @@ function Introduction() {
     <>
       <section className="intro">
         <h1>
-          Hello! I'm{" "}
-          <span
-            style={{
-              fontWeight: "600",
-            }}
-          >
-            Jeffery
-          </span>
-          .
+          <b style={{ fontWeight: 800 }}>HELLO!</b>
+          <br /> I'm Jeffery.
         </h1>
 
         <h3 className="subintro" style={{ fontWeight: "400" }}>
-          software developer & engineer
+          Software Developer and Engineer
         </h3>
       </section>
     </>

@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Nanum+Gothic:wght@400;700;800&display=swap");
 
 * {
-  font-family: "Open Sans";
+  font-family: "Segoe UI", "Open Sans", "Hind";
 }
 
 :root {
@@ -144,7 +144,7 @@ p {
 }
 
 .profile-text {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 400;
   text-align: justify;
   line-height: 2;
@@ -170,7 +170,7 @@ p {
 
 #skills > p {
   color: var(--white);
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 .skill-sets {
@@ -215,7 +215,7 @@ p {
 }
 
 .technology {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 /* Portfolio and work */
@@ -263,7 +263,7 @@ p {
 }
 
 .project-description {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding-inline: 1.5em;
   text-align: justify;
 }
@@ -272,7 +272,7 @@ p {
   border-radius: 5px;
   background-color: var(--light-blue);
   color: var(--white);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin-top: auto;
 }
@@ -311,7 +311,7 @@ p {
 }
 
 .email {
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 400;
   margin-bottom: 1.5%;
 }
@@ -346,12 +346,16 @@ p {
 
   .technology,
   .skill-list-engineering > li {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   .languages {
     font-size: 0.9rem;
     text-align: center;
+  }
+
+  #skills > p {
+    font-size: 1.1rem;
   }
 
   .skill-sets {
@@ -371,6 +375,10 @@ p {
 
 @media (min-width: 1700px) {
   .profile-text {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+
+  #skills > p {
+    font-size: 2rem;
   }
 }
